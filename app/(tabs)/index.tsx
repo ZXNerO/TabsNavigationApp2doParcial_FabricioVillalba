@@ -14,13 +14,14 @@ export default function HomeScreen() {
       headerImage={
         <Image
           source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
+          style={[styles.reactLogo, {width: 200, height: 118}]}
         />
-      }>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
-      </ThemedView>
+      }> 
+        <ThemedView style={[styles.titleContainer, {width: '90%'}]}>
+          <ThemedText type="title">Inicio - [Fabricio Alexander Villalba Lugo]</ThemedText>
+          <HelloWave/>
+        </ThemedView>
+        <ThemedText type="default">Esta es mi pantalla de inicio</ThemedText>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
         <ThemedText>

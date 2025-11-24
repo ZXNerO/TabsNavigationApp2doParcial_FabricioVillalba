@@ -4,7 +4,8 @@ export function HelloWave() {
   return (
     <Animated.Text
       style={{
-        fontSize: 28,
+        margin: 0,
+        fontSize: 22,
         lineHeight: 32,
         marginTop: -6,
         animationName: {
